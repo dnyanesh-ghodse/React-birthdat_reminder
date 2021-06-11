@@ -1,0 +1,30 @@
+.person {
+  color: rgb(22, 62, 102);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.person:hover{
+  background: #b8f8e5;
+  transform: scale(1.02);
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
+.person h4 {
+  margin-bottom: 0.35rem;
+}
+.person p {
+  margin-bottom: 0;
+}
